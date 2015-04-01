@@ -1,14 +1,14 @@
 === 코스모스팜 소셜댓글 플러그인 ===
 Contributors: 코스모스팜 - Cosmosfarm
-Donate link: http://www.cosmosfarm.com/products/kboard
-Tags: 플러그인, 소셜댓글, social, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
+Donate link: http://www.cosmosfarm.com/plugin/comments
+Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-내 사이트의 회원과 소셜회원 모두 참여가 가능한 커뮤니티를 구축할 수 있습니다. 네이버, 카카오톡, 페이스북, 트위터, 구글 등 다양한 소셜로그인을 지원하며 내 사이트 회원까지 토론에 참여할 수 있어 더 많은 사용자를 확보할 수 있습니다.
+내 사이트의 회원과 소셜회원 모두 참여가 가능한 커뮤니티를 구축할 수 있습니다.
 
 == Description ==
 
