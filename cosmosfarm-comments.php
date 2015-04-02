@@ -3,14 +3,14 @@
 Plugin Name: 코스모스팜 소셜댓글
 Plugin URI: http://www.cosmosfarm.com/plugin/comments
 Description: 소셜댓글 플러그인 입니다. 네이버, 카카오, 페이스북, 트위터, 구글등 로그인이 가능합니다.
-Version: 1.0
+Version: 1.1
 Author: 코스모스팜 - Cosmosfarm
 Author URI: http://www.cosmosfarm.com/
 */
 
 if(!defined('ABSPATH')) exit;
 
-define('COSMOSFARM_COMMENTS_VERSION', '1.0');
+define('COSMOSFARM_COMMENTS_VERSION', '1.1');
 define('COSMOSFARM_COMMENTS_DIR_PATH', str_replace(DIRECTORY_SEPARATOR . 'cosmosfarm-comments.php', '', __FILE__));
 define('COSMOSFARM_COMMENTS_URL', plugins_url('', __FILE__));
 
