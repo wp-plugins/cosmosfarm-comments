@@ -4,7 +4,7 @@ Donate link: http://www.cosmosfarm.com/plugin/comments
 Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
