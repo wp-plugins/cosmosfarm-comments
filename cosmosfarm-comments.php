@@ -25,7 +25,7 @@ function cosmosfarm_comments_init(){
 		add_action('template_redirect', array($core, 'print_profile'));
 	}
 	
-	if(get_option('cosmosfarm_comments_plugin_id') && get_option('use_cosmosfarm_comments_plugin')){
+	if(get_option('cosmosfarm_comments_plugin_id') && get_option('use_cosmosfarm_comments_plugin') && !is_admin()){
 		add_action('wp_footer', array($core, 'print_plugin_id'), 1);
 		add_filter('comments_template', array($core, 'template'), 999);
 		add_filter('comments_number', array($core, 'number'), 999);
