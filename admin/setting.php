@@ -79,6 +79,12 @@
 		<table class="form-table">
 			<tbody>
 				<tr valign="top">
+					<th scope="row"></th>
+					<td>
+						프리미엄 서비스 가입 후 `회원 연동 API 사용`을 활성화 해야 합니다. <a href="http://www.cosmosfarm.com/plugin/comments" onclick="window.open(this.href);return false;">사이트로 이동</a>
+					</td>
+				</tr>
+				<tr valign="top">
 					<th scope="row">회원정보 요청 주소</th>
 					<td>
 						<input type="text" class="regular-text" value="<?php echo site_url("?cosmosfarm_comments_request_token={$request_token}")?>" readonly>

@@ -4,7 +4,7 @@ Donate link: http://www.cosmosfarm.com/plugin/comments
 Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 통합 댓글관리, 엑셀파일 다운로드, 관리자 알림, 비밀글, 로그인 API, 링크주소 차단, 스팸관리, 디자인 변경등 다양한 기능들을 손쉽게 관리할 수 있습니다.
 
+**사이트 방문자 상승**
+
+소셜네트워크의 시대에서도 구글, 네이버등 검색엔진에서 가장 많은 방문자가 발생합니다. 코스모스팜의 소셜댓글 플러그인에서 작성된 댓글은 검색엔진의 검색결과에서 플러그인이 설치된 페이지로 연결시켜 사이트 방문자를 더 늘려드립니다.
 
 
 == Installation ==
