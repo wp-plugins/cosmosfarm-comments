@@ -63,17 +63,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Screenshots ==
 
-= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
-
-* [홈페이지](http://www.cosmosfarm.com/plugin/comments)
-* [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
-* [설치방법](http://blog.cosmosfarm.com/220395268358)
-
 
 == Changelog ==
 
-= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
-
-* [홈페이지](http://www.cosmosfarm.com/plugin/comments)
-* [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
-* [설치방법](http://blog.cosmosfarm.com/220395268358)
+= 1.3 =
+* 표시 문자 설정기능 추가
+* 위젯 추가
