@@ -15,5 +15,20 @@ jQuery(document).ready(function($){
 				});
 			}
 		});
+		$('#cosmosfarm-latest-comments').each(function(){
+			cosmosfarm_comments.latest({
+				limit:5
+			}, function(res){
+				if(res){
+					if(res.data.length > 0){
+						$(res.data).each(function(index, row){
+							var a = $('<a></a>').attr('href', row.url).text(row.content);
+							var li = $('<li></li>').addClass('latest-comments').append(a);
+							$('#cosmosfarm-latest-comments').append(li);
+						});
+					}
+				}
+			});
+		});
 	}
 });

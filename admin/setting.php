@@ -53,6 +53,13 @@
 					</td>
 				</tr>
 				<tr valign="top">
+					<th scope="row"><label for="cosmosfarm_comments_count_display">표시 문자</label></th>
+					<td>
+						<input type="text" name="cosmosfarm_comments_count_display" id="cosmosfarm_comments_count_display" value="<?php echo get_option('cosmosfarm_comments_count_display', ' 댓글')?>">
+						<p class="description">워드프레스에서 달린 댓글수를 표시할 때 입력된 문자로 표시합니다.(예: 7 댓글)</p>
+					</td>
+				</tr>
+				<tr valign="top">
 					<th scope="row"><label for="use_cosmosfarm_comments_plugin_extern_api">회원 연동 API 사용</label></th>
 					<td>
 						<select name="use_cosmosfarm_comments_plugin_extern_api" id="use_cosmosfarm_comments_plugin_extern_api">

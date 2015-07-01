@@ -42,6 +42,11 @@ final class Cosmosfarm_Comments_Core {
 			if(get_option($option_name) !== false) update_option($option_name, $new_value);
 			else add_option($option_name, $new_value, '', 'yes');
 			
+			$option_name = 'cosmosfarm_comments_count_display';
+			$new_value = $_POST[$option_name];
+			if(get_option($option_name) !== false) update_option($option_name, $new_value);
+			else add_option($option_name, $new_value, '', 'yes');
+			
 			$option_name = 'use_cosmosfarm_comments_plugin_extern_api';
 			$new_value = $_POST[$option_name];
 			if(get_option($option_name) !== false) update_option($option_name, $new_value);
@@ -119,7 +124,7 @@ final class Cosmosfarm_Comments_Core {
 	public function number(){
 		global $post;
 		$permalink = get_permalink($post->ID);
-		return '<span class="cosmosfarm-comments-plugin-count" data-url="'.$permalink.'">0</span>';
+		return '<span class="cosmosfarm-comments-plugin-count" data-url="'.$permalink.'">0</span>'.get_option('cosmosfarm_comments_count_display', ' 댓글');
 	}
 	
 	public function print_plugin_id(){

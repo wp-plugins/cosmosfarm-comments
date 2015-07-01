@@ -3,18 +3,19 @@
 Plugin Name: 코스모스팜 소셜댓글
 Plugin URI: http://www.cosmosfarm.com/plugin/comments
 Description: 소셜댓글 플러그인 입니다. 네이버, 카카오, 페이스북, 트위터, 구글등 로그인이 가능합니다.
-Version: 1.2
+Version: 1.3
 Author: 코스모스팜 - Cosmosfarm
 Author URI: http://www.cosmosfarm.com/
 */
 
 if(!defined('ABSPATH')) exit;
 
-define('COSMOSFARM_COMMENTS_VERSION', '1.2');
+define('COSMOSFARM_COMMENTS_VERSION', '1.3');
 define('COSMOSFARM_COMMENTS_DIR_PATH', str_replace(DIRECTORY_SEPARATOR . 'cosmosfarm-comments.php', '', __FILE__));
 define('COSMOSFARM_COMMENTS_URL', plugins_url('', __FILE__));
 
 include_once 'class/Cosmosfarm_Comments_Core.class.php';
+include_once 'class/Cosmosfarm_Comments_Widget.class.php';
 
 add_action('init', 'cosmosfarm_comments_init');
 function cosmosfarm_comments_init(){
@@ -32,6 +33,11 @@ function cosmosfarm_comments_init(){
 		wp_enqueue_script('cosmosfarm-comments-plugin', 'https://plugin.cosmosfarm.com/comments.js', array(), '1.0', true);
 		wp_enqueue_script('cosmosfarm-comments-plugin-template', COSMOSFARM_COMMENTS_URL . '/template/comments.js', array(), COSMOSFARM_COMMENTS_VERSION, true);
 	}
+}
+
+add_action('widgets_init', 'cosmosfarm_comments_widgets');
+function cosmosfarm_comments_widgets(){
+	register_widget('Cosmosfarm_Comments_Widget');
 }
 
 register_activation_hook(__FILE__, 'cosmosfarm_comments_activation');

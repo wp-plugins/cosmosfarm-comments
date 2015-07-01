@@ -3,22 +3,25 @@ Contributors: 코스모스팜 - Cosmosfarm
 Donate link: http://www.cosmosfarm.com/plugin/comments
 Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-내 사이트의 회원과 소셜회원 모두 참여가 가능한 커뮤니티를 구축할 수 있습니다.
+앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다.
 
 == Description ==
 
-[코스모스팜 소셜댓글 홈페이지](http://www.cosmosfarm.com/plugin/comments)
+**링크**
+[홈페이지](http://www.cosmosfarm.com/plugin/comments)
 
 [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
 
+[설치방법](http://blog.cosmosfarm.com/220395268358)
+
 **쉬운 설치 방법**
 
-전문가가 아니어도 괜찮습니다. 단 몇 줄의 코드를 추가하거나 워드프레스 플러그인을 설치하는 것으로 당신의 웹 사이트에 소셜댓글 플러그인을 설치할 수 있습니다. 즉시 더 많은 사용자들의 이야기를 들을 수 있습니다.
+전문가가 아니어도 괜찮습니다. 단 몇 줄의 코드를 추가하거나 워드프레스 플러그인을 설치하는 것으로 당신의 웹 사이트에 코스모스팜 소셜댓글을 설치할 수 있습니다. 즉시 더 많은 사용자들의 이야기를 들을 수 있습니다.
 
 **모두가 참여 가능한 커뮤니티**
 
@@ -42,6 +45,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Installation ==
+
+[홈페이지](http://www.cosmosfarm.com/plugin/comments)
+
+[사용자 커뮤니티](http://www.cosmosfarm.com/threads)
+
+[설치방법](http://blog.cosmosfarm.com/220395268358)
 
 
 == Frequently Asked Questions ==
