@@ -12,7 +12,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
+= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
+
 **링크**
+
 [홈페이지](http://www.cosmosfarm.com/plugin/comments)
 
 [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
