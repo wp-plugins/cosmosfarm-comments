@@ -22,8 +22,10 @@ jQuery(document).ready(function($){
 				if(res){
 					if(res.data.length > 0){
 						$(res.data).each(function(index, row){
-							var a = $('<a></a>').attr('href', row.url).text(row.content);
-							var li = $('<li></li>').addClass('latest-comments').append(a);
+							var username = row.display_name?row.display_name:row.username;
+							var content = row.content.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/  /g, ' &nbsp;').replace(/(?:\r\n|\r|\n)/g, ' ');
+							var a = $('<a></a>').attr('href', row.url).text(content);
+							var li = $('<li></li>').addClass('latest-comments').append(jQuery('<span>'+username+'</span>').addClass('latest-username')).append(a);
 							$('#cosmosfarm-latest-comments').append(li);
 						});
 					}
