@@ -1,6 +1,6 @@
 === 코스모스팜 소셜댓글 ===
 Contributors: 코스모스팜 - Cosmosfarm
-Donate link: http://www.cosmosfarm.com/plugin/comments
+Donate link: http://www.cosmosfarm.com
 Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
 Tested up to: 4.3.1
