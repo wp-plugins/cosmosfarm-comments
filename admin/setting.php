@@ -7,7 +7,7 @@
 		<a href="http://www.cosmosfarm.com/threads" class="add-new-h2" onclick="window.open(this.href); return false;">커뮤니티</a>
 		<a href="http://www.cosmosfarm.com/support" class="add-new-h2" onclick="window.open(this.href); return false;">고객지원</a>
 	</h2>
-	<p>내 사이트의 회원과 소셜회원 모두 참여가 가능한 커뮤니티를 구축할 수 있습니다. 네이버, 카카오톡, 페이스북, 트위터, 구글 등 다양한 소셜로그인을 지원하며 내 사이트 회원까지 토론에 참여할 수 있어 더 많은 사용자를 확보할 수 있습니다.</p>
+	<p>사용 할 수록 홈페이지가 자연적으로 홍보되는 차세대 소셜댓글 서비스 입니다.</p>
 	
 	<hr>
 	
@@ -19,24 +19,24 @@
 				<tr valign="top">
 					<th scope="row"></th>
 					<td>
-						먼저 <a href="http://www.cosmosfarm.com/plugin/comments" onclick="window.open(this.href);return false;">소셜댓글 플러그인</a> 관리사이트에서 이 워드프레스 사이트를 <a href="http://www.cosmosfarm.com/plugin/comments/create" onclick="window.open(this.href);return false;">등록</a>해주세요.
+						먼저 <a href="http://www.cosmosfarm.com/plugin/comments" onclick="window.open(this.href);return false;">소셜댓글</a> 관리사이트에서 이 워드프레스 사이트를 <a href="http://www.cosmosfarm.com/plugin/comments/create" onclick="window.open(this.href);return false;">등록</a>해주세요.
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><label for="cosmosfarm_comments_plugin_id">소셜댓글 플러그인 ID</label></th>
+					<th scope="row"><label for="cosmosfarm_comments_plugin_id">소셜댓글 ID</label></th>
 					<td>
 						<input type="text" name="cosmosfarm_comments_plugin_id" id="cosmosfarm_comments_plugin_id" value="<?php echo get_option('cosmosfarm_comments_plugin_id', '')?>">
 						<p class="description"><a href="http://www.cosmosfarm.com/plugin/comments/sites" onclick="window.open(this.href);return false;">등록된 사이트</a> » 설치하기 페이지에 나와있는 ID값을 입력해주세요.</p>
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><label for="use_cosmosfarm_comments_plugin">소셜댓글 플러그인 사용</label></th>
+					<th scope="row"><label for="use_cosmosfarm_comments_plugin">소셜댓글 사용</label></th>
 					<td>
 						<select name="use_cosmosfarm_comments_plugin" id="use_cosmosfarm_comments_plugin">
 							<option value="">비활성화</option>
 							<option value="1"<?php if(get_option('use_cosmosfarm_comments_plugin')):?> selected<?php endif?>>활성화</option>
 						</select>
-						<p class="description">워드프레스 댓글을 비활성화 하고 소셜댓글 플러그인을 사용합니다.</p>
+						<p class="description">워드프레스 댓글을 비활성화 하고 소셜댓글을 사용합니다.</p>
 					</td>
 				</tr>
 				<tr valign="top">
@@ -77,6 +77,7 @@
 		</p>
 	</form>
 	
+	<iframe src="//www.cosmosfarm.com/display/size/320_100" frameborder="0" scrolling="no" style="margin-top:20px;width:320px;height:100px;border:none;"></iframe>
 	<hr>
 	
 	<h3>회원 연동 API 정보</h3>
@@ -88,7 +89,7 @@
 				<tr valign="top">
 					<th scope="row"></th>
 					<td>
-						프리미엄 서비스 가입 후 `회원 연동 API 사용`을 활성화 해야 합니다. <a href="http://www.cosmosfarm.com/plugin/comments" onclick="window.open(this.href);return false;">사이트로 이동</a>
+						프리미엄 서비스 가입 후 아래의 모든 정보를 코스모스팜 소셜댓글 설정에 입력해주세요. <a href="http://www.cosmosfarm.com/plugin/comments" onclick="window.open(this.href);return false;">사이트로 이동</a>
 					</td>
 				</tr>
 				<tr valign="top">
@@ -108,7 +109,8 @@
 				<tr valign="top">
 					<th scope="row">로그인 페이지 주소</th>
 					<td>
-						<input type="text" class="regular-text" value="<?php echo wp_login_url()?>" readonly>
+						<input type="text" class="regular-text" value="<?php echo wp_login_url('cosmosfarm_comments_href')?>" readonly>
+						<p class="description">※ 로그인 페이지 주소에서 cosmosfarm_comments_href가 실제 페이지 주소로 자동 변환됩니다.</p>
 					</td>
 				</tr>
 				<tr valign="top">
@@ -120,5 +122,7 @@
 			</tbody>
 		</table>
 	</form>
+	
+	<iframe src="//www.cosmosfarm.com/display/size/300_250" frameborder="0" scrolling="no" style="margin-top:20px;width:300px;height:250px;border:none;"></iframe>
 </div>
 <div class="clear"></div>

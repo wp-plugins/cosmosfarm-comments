@@ -1,20 +1,20 @@
-=== 코스모스팜 소셜댓글 플러그인 ===
+=== 코스모스팜 소셜댓글 ===
 Contributors: 코스모스팜 - Cosmosfarm
 Donate link: http://www.cosmosfarm.com/plugin/comments
 Tags: 플러그인, 소셜댓글, social, comment, comments, 네이버, 카카오, 페이스북, 트위터, 구글, kboard, 케이보드
 Requires at least: 3.0.1
-Tested up to: 4.2.2
-Stable tag: 1.4
+Tested up to: 4.3.1
+Stable tag: 1.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다.
+사용 할 수록 홈페이지가 자연적으로 홍보되는 차세대 소셜댓글 서비스 입니다.
 
 == Description ==
 
-= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
+= 사용 할 수록 홈페이지가 자연적으로 홍보되는 차세대 소셜댓글 서비스 입니다. =
 
-* [홈페이지](http://www.cosmosfarm.com/plugin/comments)
+* [홈페이지](http://www.cosmosfarm.com)
 * [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
 * [설치방법](http://blog.cosmosfarm.com/220395268358)
 
@@ -40,23 +40,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **사이트 방문자 상승**
 
-소셜네트워크의 시대에서도 구글, 네이버등 검색엔진에서 가장 많은 방문자가 발생합니다. 코스모스팜의 소셜댓글 플러그인에서 작성된 댓글은 검색엔진의 검색결과에서 플러그인이 설치된 페이지로 연결시켜 사이트 방문자를 더 늘려드립니다.
+소셜네트워크의 시대에서도 구글, 네이버등 검색엔진에서 가장 많은 방문자가 발생합니다. 코스모스팜의 소셜댓글에서 작성된 댓글은 검색엔진의 검색결과에서 소셜댓글이 설치된 페이지로 연결시켜 사이트 방문자가 늘어납다.
 
 
 == Installation ==
 
-= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
+= 사용 할 수록 홈페이지가 자연적으로 홍보되는 차세대 소셜댓글 서비스 입니다. =
 
-* [홈페이지](http://www.cosmosfarm.com/plugin/comments)
+* [홈페이지](http://www.cosmosfarm.com)
 * [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
 * [설치방법](http://blog.cosmosfarm.com/220395268358)
 
 
 == Frequently Asked Questions ==
 
-= 앞선 커뮤니티 기능으로 사이트 방문자를 증가시킬 수 있습니다. =
+= 사용 할 수록 홈페이지가 자연적으로 홍보되는 차세대 소셜댓글 서비스 입니다. =
 
-* [홈페이지](http://www.cosmosfarm.com/plugin/comments)
+* [홈페이지](http://www.cosmosfarm.com)
 * [사용자 커뮤니티](http://www.cosmosfarm.com/threads)
 * [설치방법](http://blog.cosmosfarm.com/220395268358)
 
@@ -65,6 +65,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Changelog ==
+
+= 1.6 =
+* 로그인 후 원래 페이지로 돌아오도록 cosmosfarm_comments_href 주가
+
+= 1.5 =
+* 스크립트 오류 수정
 
 = 1.4 =
 * 위젯 스타일 적용

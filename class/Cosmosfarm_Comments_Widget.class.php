@@ -8,7 +8,7 @@
 final class Cosmosfarm_Comments_Widget extends WP_Widget {
 	
 	public function __construct(){
-		parent::__construct('Cosmosfarm_Comments_Widget', '코스모스팜 소셜댓글', array('description' => '코스모스팜 소셜댓글의 최신 댓글.'));
+		parent::__construct('Cosmosfarm_Comments_Widget', '코스모스팜 소셜댓글', array('description' => '코스모스팜 소셜댓글의 최신 댓글'));
 	}
 	
 	public function form($instance){

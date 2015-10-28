@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 			cosmosfarm_comments.latest({
 				limit:5
 			}, function(res){
-				if(res){
+				if(res.data){
 					if(res.data.length > 0){
 						$(res.data).each(function(index, row){
 							var username = row.display_name?row.display_name:row.username;
